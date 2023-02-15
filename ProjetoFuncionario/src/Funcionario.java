@@ -9,6 +9,21 @@ public class Funcionario {
 		this.cargo = cargo;
 		this.salario = salario;
 	}
+	public Funcionario(String nome, String cargo) {
+		this.nome = nome;
+		this.cargo = cargo;
+		this.salario = 0.0;
+	}
+	public Funcionario(String nome) {
+		this.nome = nome;
+		this.cargo = "*Nao atribuido*";
+		this.salario = 0.0;
+	}
+	public Funcionario() {
+		this.nome = "NOVO FUNCIONARIO";
+		this.cargo = "*Nao atribuido*";
+		this.salario = 0.0;
+	}
 
 	public String imprimir() {
 		return "Funcionario: "+nome+" ("+cargo+") R$ "+String.format("%.2f", salario);
