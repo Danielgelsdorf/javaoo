@@ -11,7 +11,7 @@ public class TesteCliente {
 //		System.out.println(e1.exibir());
 		
 		Cliente c1 = new Cliente(95842, "Professor Isidro", "isidro@isidro.com",
-				                 new Endereco("Av","Brasil",150,"Casa 2", "12345-987"));
+				                 new Endereco("Av","Cabeção",150,"Casa 2", "12345-987"));
 //		c1.setCodigo(95842);, 
 //		c1.setNome("Professor Isidro");
 //		c1.setEmail("isidro@isidro.com");

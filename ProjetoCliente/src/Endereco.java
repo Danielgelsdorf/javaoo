@@ -6,6 +6,7 @@ public class Endereco {
 	private String complemento;
 	private String cep;
 	
+
 	public Endereco(String tipo, String logradouro, int numero, String complemento, String cep) {
 		super();
 		this.tipo = tipo;
