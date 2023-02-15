@@ -10,14 +10,10 @@ public class Funcionario {
 		this.salario = salario;
 	}
 	public Funcionario(String nome, String cargo) {
-		this.nome = nome;
-		this.cargo = cargo;
-		this.salario = 0.0;
+		this(nome, cargo, 0.0);
 	}
 	public Funcionario(String nome) {
-		this.nome = nome;
-		this.cargo = "*Nao atribuido*";
-		this.salario = 0.0;
+		this(nome, "*Nao atribuido*", 0.0);
 	}
 	public Funcionario() {
 		this.nome = "NOVO FUNCIONARIO";
