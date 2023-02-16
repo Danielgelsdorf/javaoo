@@ -51,7 +51,6 @@ public class Loja {
 				System.out.println("Opcao Invalida");
 				break;
 			}
-		} while (opcao != -1);
-		
+		} while (opcao != -1);		
 	}
 }
