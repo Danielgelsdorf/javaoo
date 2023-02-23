@@ -10,6 +10,7 @@ public class Loja {
 		lista.add(new Produto(1, "Teclado", 30));
 		lista.add(new Produto(10, "Mouse", 50));
 		lista.add(new Produto(25, "Impressora", 400));
+		lista.add(new Produto(26, "Computador", 1500));
 		
 		
 		
