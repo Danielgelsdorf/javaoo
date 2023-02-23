@@ -11,9 +11,5 @@ public class Loja {
 		ic.totalizarPedido();
 		
 		System.out.println(ic);
-		
-		CarrinhoPromocional ic2 = (CarrinhoPromocional)ic;
-		ic2.totalizarPedido();
-		System.out.println(ic2);
 	}
 }
