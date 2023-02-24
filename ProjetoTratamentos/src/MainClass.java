@@ -22,6 +22,9 @@ public class MainClass {
 			p.setId(-1);
 			
 		} 
+		catch (IsiException e) {
+			System.out.println("Erro de preenchimento - "+e.getMessage());
+		}
 		catch (InputMismatchException e) {
 			System.out.println("Ei, digite um numero inteiro!!!");			
 		}
