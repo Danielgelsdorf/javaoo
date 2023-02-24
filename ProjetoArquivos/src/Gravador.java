@@ -33,11 +33,5 @@ public class Gravador {
 		catch (IOException ex) {
 			System.out.println("Erro "+ex.getMessage());
 		}		
-		
-		
-		
-		
-		
-		
 	}
 }
